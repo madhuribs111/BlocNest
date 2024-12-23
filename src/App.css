@@ -1,0 +1,88 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.property-list {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.property-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.property-list li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.property-list h3 {
+  margin: 0 0 10px;
+}
+
+.property-list button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.property-list button:hover {
+  background-color: #0056b3;
+}
+
+.purchase-form {
+  margin: 20px auto;
+  width: 80%;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-form label {
+  display: block;
+  margin: 10px 0;
+}
+
+.purchase-form input,
+.purchase-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.purchase-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.purchase-form button:hover {
+  background-color: #218838;
+}
